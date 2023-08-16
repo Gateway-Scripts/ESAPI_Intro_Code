@@ -10,3 +10,4 @@
             </Grid.ColumnDefinitions>
             <Button Name="Back_Btn" HorizontalAlignment="Right" Margin="10" Content="&lt;" Width="50" Click="Back_Btn_Click"/>
             <Button Name="Forward_Btn" HorizontalAlignment="Left" Margin="10" Content="&gt;" Width="50" Grid.Column="1" Click="Forward_Btn_Click"/>
+        </Grid>
