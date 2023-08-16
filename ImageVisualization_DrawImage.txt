@@ -1,6 +1,6 @@
 //BitmapSource bitmapSource = null;
             int[,] pixels = new int[_image.YSize, _image.XSize];
-            _image.GetVoxels(SliceNum, pixels);
+            _image.GetVoxels(_sliceNum, pixels);
             int[] flat_pixels = new int[_image.YSize * _image.XSize];
             //lay out pixels into single array
             for (int i = 0; i < _image.YSize; i++)
